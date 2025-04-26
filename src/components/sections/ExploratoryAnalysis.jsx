@@ -83,7 +83,7 @@ plot_distributions(columns_to_plot)`;
         />
         
         <div className="visualization">
-          <img src="/key-num-feat.jpg" alt="Distribution of key numeric features" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}key-num-feat.jpg`} alt="Distribution of key numeric features" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
@@ -117,7 +117,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/log-tran-dist.jpg" alt="Log-Transformed Distribution of Annual Income" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}log-tran-dist.jpg`} alt="Log-Transformed Distribution of Annual Income" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
@@ -156,7 +156,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/bin-ann-inc.jpg" alt="Binned Distribution of Annual Income" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}bin-ann-inc.jpg`} alt="Binned Distribution of Annual Income" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
@@ -194,7 +194,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/box-cox-transformed.jpg" alt="Box-Cox Transformed Distribution of Loan Value" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}box-cox-transformed.jpg`} alt="Box-Cox Transformed Distribution of Loan Value" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
@@ -230,9 +230,9 @@ plt.show()`}</code>
             </pre>
           )}
         </div>
-        
+       
         <div className="visualization">
-          <img src="/log_inst_val.jpg" alt="Log Transformed Distribution of Installment Value" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}log_inst_val.jpg`} alt="Log Transformed Distribution of Installment Value" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
@@ -359,7 +359,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/corr-mat.png" alt="Correlation Matrix Heatmap" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}corr-mat.png`} alt="Correlation Matrix Heatmap" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
@@ -389,7 +389,7 @@ plt.show()`}</code>
           <p>This matrix represents the data after feature engineering, where all variables have been converted to numerical form.</p>
           
           <div className="visualization">
-            <img src="/corr-mat-after.png" alt="Correlation Matrix After Feature Engineering" className="analysis-image" />
+            <img src={`${import.meta.env.BASE_URL}corr-mat-after.png`} alt="Correlation Matrix After Feature Engineering" className="analysis-image" />
           </div>
           
           <h4>Key Correlations with STATUS_EARLY_EXPIRED:</h4>
