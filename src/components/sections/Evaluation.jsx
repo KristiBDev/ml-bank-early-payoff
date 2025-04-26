@@ -81,7 +81,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_logreg.png" alt="Logistic Regression Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_logreg.png`} alt="Logistic Regression Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 13: Confusion Matrix for untuned Logistic Regression model.
           </p>
@@ -126,7 +126,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_tuned_logreg.png" alt="Tuned Logistic Regression Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_tuned_logreg.png`} alt="Tuned Logistic Regression Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 14: Confusion Matrix for tuned Logistic Regression model.
           </p>
@@ -171,7 +171,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_rf.png" alt="Random Forest Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_rf.png`} alt="Random Forest Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 15: Confusion Matrix for untuned Random Forest model.
           </p>
@@ -214,7 +214,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_tuned_rf.png" alt="Tuned Random Forest Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_tuned_rf.png`} alt="Tuned Random Forest Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 16: Confusion Matrix for tuned Random Forest model.
           </p>
@@ -259,7 +259,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_xgb.png" alt="XGBoost Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_xgb.png`} alt="XGBoost Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 17: Confusion Matrix for untuned XGBoost model.
           </p>
@@ -302,7 +302,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_tuned_xgb.png" alt="Tuned XGBoost Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_tuned_xgb.png`} alt="Tuned XGBoost Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 18: Confusion Matrix for tuned XGBoost model.
           </p>
@@ -347,7 +347,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_lgb.png" alt="LightGBM Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_lgb.png`} alt="LightGBM Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 19: Confusion Matrix for untuned LightGBM model.
           </p>
@@ -390,7 +390,7 @@ plt.show()`}</code>
         </div>
         
         <div className="visualization">
-          <img src="/conf_mat_tuned_lgb.png" alt="Tuned LightGBM Confusion Matrix" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}conf_mat_tuned_lgb.png`} alt="Tuned LightGBM Confusion Matrix" className="analysis-image" />
           <p className="image-caption">
             Figure 20: Confusion Matrix for tuned LightGBM model.
           </p>
