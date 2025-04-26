@@ -232,7 +232,7 @@ plt.show()`}</code>
         </div>
        
         <div className="visualization">
-          <img src={`${import.meta.env.BASE_URL}log_inst_val.jpg`} alt="Log Transformed Distribution of Installment Value" className="analysis-image" />
+          <img src={`${import.meta.env.BASE_URL}log_int_val.jpg`} alt="Log Transformed Distribution of Installment Value" className="analysis-image" />
         </div>
         
         <div className="analysis-notes">
